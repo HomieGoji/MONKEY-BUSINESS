@@ -1,0 +1,16 @@
+(function(){
+  window['optimizely'] = window['optimizely'] || [];
+  window['optimizely'].push(['activateGeoDelayedExperiments', {
+    'location':{
+      'city': "MYRTLEBEACH",
+      'continent': "NA",
+      'country': "US",
+      'region': "SC"
+    },
+    'ip':"71.68.211.222"
+  }]);
+})
+//
+()
+
+;
